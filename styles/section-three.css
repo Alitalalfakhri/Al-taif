@@ -1,0 +1,45 @@
+.machien-image{
+    height: 350px;
+    width: 260px;
+    object-fit: cover;
+    position: absolute;
+    left: 30px;
+    padding: 30px 30p 30px 30px;
+    border-radius: 30px;
+
+}
+.section-three{
+    background-color: black;
+    height: 400px;
+}
+
+
+.material-symbols-outlined {
+    color: rgb(121, 31, 31);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    left: 400px;
+   top: 500px;
+
+}
+.sells-nums{
+    color: rgb(141, 23, 23);
+    position: absolute;
+    left: 400px;
+    top: 530px;
+}
+
+.material-symbols-outlined2 {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

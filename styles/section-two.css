@@ -1,0 +1,17 @@
+.section-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 3px solid rgb(17, 168, 80);
+    border-radius: 10px;
+    padding: p;
+}
+.section-two h1{
+    color: white;
+    font-size: 35px;
+ 
+    
+  
+}

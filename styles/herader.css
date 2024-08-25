@@ -1,0 +1,76 @@
+/* Ensure all elements have an initial opacity and transform state */
+.header img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+
+}
+
+.read {
+    position: absolute;
+    top: 300px;
+    left: 90px;
+    background-color: rgb(141, 23, 23);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 0; /* Start invisible */
+    transform: translateY(-50px); /* Start off above its final position */
+    animation: slideIn 2.39s ease-out forwards; /* Apply animation */
+}
+
+.buy-package {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    height: 30px;
+    width: 100px;
+    background-color: hsl(0, 0%, 85%);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 0; /* Start invisible */
+    transform: translateY(-50px); /* Start off above its final position */
+    animation: slideIn 2.3s ease-out forwards; /* Apply animation */
+}
+
+.read:active {
+    background-color: rgb(143, 75, 75);
+    height: 40px;
+    width: 110px;
+    opacity: 0.7;
+}
+
+.buy-package:active {
+    background-color: rgb(155, 124, 124);
+    height: 40px;
+    width: 110px;
+    opacity: 0.7;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0; /* Start invisible */
+        transform: translateY(-500px); /* Start off above its final position */
+    }
+    to {
+        opacity: 1; /* End visible */
+        transform: translateY(0); /* End at its final position */
+    }
+}
+
+.header h1{
+    position: absolute;
+    top: 110px;
+    color: rgb(76, 77, 18);
+     left: 100px;
+     transition: all 0.3s;
+    opacity: 0; /* Start invisible */
+    transform: translateY(-50px); /* Start off above its final position */
+    animation: slideIn 1s ease-out forwards; /* Apply anima*/
+}
