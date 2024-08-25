@@ -1,13 +1,15 @@
 .about-us-p{
-    color: brown;
+    color: rgb(145, 93, 93);
     margin: 10px;
     font-size: 25px;
    
     
 }
 .section-four{
-    background-color: black;
+    background-color: hsl(0, 0%, 12%);
     border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
    
 }
 

@@ -4,3 +4,10 @@ document.querySelector('.read').addEventListener('click' , () => {
         behavior: 'smooth'
     })
 })
+document.querySelector('.buy-package').addEventListener('click' , () => {
+    console.log('click')
+    document.querySelector('.section-five').scrollIntoView({
+        behavior: 'smooth'
+    })
+})
+

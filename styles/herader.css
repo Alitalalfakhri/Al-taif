@@ -67,7 +67,7 @@
 .header h1{
     position: absolute;
     top: 110px;
-    color: rgb(76, 77, 18);
+    color: rgb(255, 255, 255);
      left: 100px;
      transition: all 0.3s;
     opacity: 0; /* Start invisible */

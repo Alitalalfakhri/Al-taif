@@ -73,3 +73,11 @@
         justify-content: center;
     }
 }
+footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+}
