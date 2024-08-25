@@ -1,0 +1,75 @@
+.section-five {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column by default */
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(110, 99, 99);
+    border-radius: 15px;
+   
+}
+@media (min-width: 900px) {
+    .section-five {
+        grid-template-columns: repeat(2, 1fr); /* Three columns */
+    }
+}
+@media (min-width: 1000px) {
+    .section-five {
+        grid-template-columns: repeat(3, 1fr); /* Four columns */
+    }
+}
+
+/* For large screens (desktops) */
+@media (min-width: 1200px) {
+    .section-five {
+        grid-template-columns: repeat(3, 1fr); /* Four columns */
+    }
+}
+
+
+.basic{
+    background-color: rgb(109, 25, 25);
+    color: white;
+    padding: 80px;
+}
+.offers{
+    background-color: rgb(114, 30, 30);
+    margin: 10px;
+    padding: 100px;
+    color: rgb(245, 243, 243);
+    border-radius: 20px;
+}
+.offers{
+    h1{
+        color: rgb(14, 14, 22);
+    }
+}
+.offers{
+    span{
+        color: grey;
+    }
+}
+
+.offers{
+    .name{
+       margin-bottom: 50px;
+       font-size: 50px;
+       font-weight: bolder;
+    }
+}
+.offers{
+    button{
+        background-color: rgb(119, 119, 119);
+        color: rgb(252, 252, 252);
+        padding: 10px;
+        border-radius: 30px;
+        width: 150px;
+        cursor: pointer;
+    }
+}
+.offers{
+    .button-cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
