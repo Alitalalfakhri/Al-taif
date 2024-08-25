@@ -3,10 +3,23 @@
     align-items: center;
     justify-content: center;
     align-items: center;
+    margin: 10px;
     background-color: black;
     border: 3px solid rgb(141, 23, 23);
-    border-radius: 10px;
-    padding: p;
+    border-radius: 10000px;
+    animation: slideY 1.5s ease-out;
+    
+}
+
+@keyframes slideY {
+    from {
+        opacity: 0; /* Start invisible */
+        transform: translateY(500px); /* Start off above its final position */
+    }
+    to {
+        opacity: 1; /* End visible */
+        transform: translateY(0); /* End at its final position */
+    }
 }
 .section-two h2{
     color: hsl(0, 0%, 85%);
