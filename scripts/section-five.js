@@ -17,6 +17,6 @@ offers.forEach((offer) => {
 document.querySelector('.section-five').innerHTML = html
 document.querySelectorAll('.buy-button').forEach((button) => {
     button.addEventListener('click' , () => {
-        window.location.href = 'https://t.me/Web23Dev';
+        console.log('ordered')
     })
 })
