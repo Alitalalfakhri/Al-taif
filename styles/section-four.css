@@ -1,7 +1,9 @@
 .about-us-p{
-    color: rgb(145, 93, 93);
+    color: rgb(253, 253, 253);
     margin: 10px;
     font-size: 25px;
+    font-family: 'Amiri', serif;
+    padding: 20px;
    
     
 }
@@ -14,10 +16,12 @@
 }
 
 .section-four h1{
-    color: brown;
+    color: rgb(141, 23, 23);
     margin: 10px;
+    font-family: 'Amiri', serif;
 }
 .section-four h2{
-    color: brown;
+    color: rgb(141, 23, 23);
     margin: 10px;
+    font-family: 'Amiri', serif;
 }

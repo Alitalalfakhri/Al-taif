@@ -6,7 +6,7 @@
     margin: 10px;
     background-color: black;
     border: 3px solid rgb(141, 23, 23);
-    border-radius: 10000px;
+    border-radius: 30px;
     animation: slideY 1.5s ease-out;
     
 }
