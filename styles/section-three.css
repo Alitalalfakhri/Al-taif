@@ -63,3 +63,17 @@
         flex: 1 1 100%; /* Stack items on smaller screens */
     }
 }
+.our-works {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px; /* Space between the images */
+    padding: 16px; /* Space around the grid */
+
+}
+
+.images {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure images cover the container */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
