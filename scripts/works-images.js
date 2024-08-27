@@ -3,7 +3,7 @@ export let worksImages = [
     { src: 'images/IMG-20240826-WA0022.jpg' },
     { src: 'images/IMG-20240826-WA0023.jpg' },
     { src: 'images/IMG-20240826-WA0025.jpg' },
-    { src: 'images/IMG-20240826-WA0025.jpg' },
+    
     { src: 'images/IMG-20240826-WA0026.jpg' },
     { src: 'images/IMG-20240826-WA0027.jpg' },
     { src: 'images/IMG-20240826-WA0028.jpg' },

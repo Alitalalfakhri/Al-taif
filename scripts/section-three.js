@@ -3,7 +3,7 @@ let html = '';
 worksImages.forEach((image) => {
     document.querySelector('.our-works').innerHTML = '';
     html += `
-    <img class="images" src="${image.src}">
+    <img class="images" src="${image.src}" alt="صور اعمال الشركة">
     
     `
 })
