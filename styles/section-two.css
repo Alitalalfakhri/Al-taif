@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
-    background-color: black;
-    border: 3px solid rgb(141, 23, 23);
+    background-color: rgb(236, 10, 10);
+    border: 3px solid rgb(219, 228, 224);
     border-radius: 30px;
     animation: slideY 1.5s ease-out;
     

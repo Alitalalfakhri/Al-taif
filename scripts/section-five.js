@@ -19,7 +19,7 @@ offers.forEach((offer) => {
     // Generate the HTML for the entire offer
     html += `
         <div class="card">
-            <h2>${offer.name}</h2>
+            <h2 class="offer-name">${offer.name}</h2>
             <img class="image" src="${offer.Image}" alt="${offer.name}">
             <div class="sizes" >
                 ${sizesHtml}

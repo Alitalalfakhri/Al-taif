@@ -20,7 +20,7 @@
 }
 
 .section-three {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(108, 109, 109);
     border-radius: 20px;
     padding: 20px;
     display: flex;
@@ -32,7 +32,7 @@
 }
 
 .stat {
-    color: rgb(141, 23, 23);
+    color: rgb(236, 238, 237);
     text-align: center;
     flex: 1 1 calc(33% - 40px); /* Responsive item size */
     background-color: #8d8989; /* Optional: Background for better visibility */
