@@ -33,8 +33,12 @@
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-
+    cursor: pointer;
     width: calc(33% - 16px); /* Adjust as needed */
+    
+}
+.size-box:active{
+    background-color: rgb(136, 136, 136);
 }
 
 .size-box h2 {

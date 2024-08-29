@@ -8,7 +8,7 @@ offers.forEach((offer) => {
     for (let i = 0; i < offer.length; i++) {
         sizesHtml += `
         
-            <div class="size-box" onclick="window.location = 'https://wa.me/+9647770641171?text= ${offer.name}/ ${ offer.sizes[i]} / ${offer.prices[i]}';">
+            <div class="size-box" onclick="window.location = 'https://wa.me/+9647770641171?text= ${offer.name}/   ${offer.prices[i]}/ (${ offer.sizes[i]}) اريد هذا العرض';">
                 <h2>${offer.sizes[i]} القياسات</h2>
                 <h3>${offer.prices[i].toLocaleString()} السعر</h3>
              </div>
