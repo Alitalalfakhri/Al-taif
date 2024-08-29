@@ -36,7 +36,7 @@
     color: rgb(236, 238, 237);
     text-align: center;
     flex: 1 1 calc(33% - 40px); /* Responsive item size */
-    background-color: #8d8989; /* Optional: Background for better visibility */
+    background-color: #851717; /* Optional: Background for better visibility */
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
