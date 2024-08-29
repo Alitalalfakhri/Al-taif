@@ -1,6 +1,6 @@
 export let offers = [
     { 
-        Image: 'images/IMG-20240826-WA0021.jpg',
+        Image: 'images/سبلكس.jpg',
         name: 'علاكة سبلكس قبضة خفيفة',
         length: 6,
         sizes: [
@@ -21,7 +21,7 @@ export let offers = [
         ]
     },
     { 
-        Image: 'images/IMG-20240826-WA0021.jpg',
+        Image: 'images/مات-قبضة.jpg',
         name: 'علاكة مات قبضة',
         length: 4,
         sizes: [
@@ -38,7 +38,7 @@ export let offers = [
         ]
     },
     { 
-        Image: 'images/IMG-20240826-WA0021.jpg',
+        Image: 'images/قبضة-نايلون.jpg',
         name: 'علاكة قبضة نايلون',
         length: 8,
         sizes: [
@@ -63,7 +63,7 @@ export let offers = [
         ]
     },
     { 
-        Image: 'images/IMG-20240826-WA0021.jpg',
+        Image: 'images/فانيلة.jpg',
         name: 'طباعة علاكة فانيلة',
         length: 8,
         sizes: [
@@ -78,7 +78,7 @@ export let offers = [
 
         ],
         prices: [
-            60_000,
+            60_000 ,
             70_000,
             80_000,
             100_000,

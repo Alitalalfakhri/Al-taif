@@ -21,11 +21,9 @@
         transform: translateY(0); /* End at its final position */
     }
 }
-.section-two h2{
+.section-two h3{
     color: hsl(0, 0%, 85%);
-    
-    font-size: 35px;
-    
-    
+    padding: 10px;
+    font-size: 20px;
   
 }

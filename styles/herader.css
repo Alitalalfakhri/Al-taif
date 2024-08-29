@@ -64,9 +64,11 @@
     }
 }
 
-.header h1{
+.header-text{
+    font-size: 30px;
     position: absolute;
     top: 110px;
+
     color: rgb(255, 255, 255);
      left: 100px;
      transition: all 0.3s;
