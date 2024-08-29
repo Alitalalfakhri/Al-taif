@@ -20,6 +20,7 @@ offers.forEach((offer) => {
     html += `
         <div class="card">
             <h2 class="offer-name">${offer.name}</h2>
+            <h2>علاكة لون واحد 1000</h2>
             <img class="image" src="${offer.Image}" alt="${offer.name}">
             <div class="sizes" >
                 ${sizesHtml}
