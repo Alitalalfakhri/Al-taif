@@ -1,22 +1,32 @@
-import { formatCurrency } from '../money/formar-curency.js';
-import { offers } from './offers.js';
+import { offers } from "./offers.js";
+
 let html = '';
 
 offers.forEach((offer) => {
-    document.querySelector('.section-five').innerHTML = '';
-    html += ` <div class="offers">
-            <h1 class="name">${offer.name}</h1>
-            <h2 ><span>الوزن</span> : ${offer.mass}</h2>
-            <h2><span>المدة</span>:${offer.time} </h2>
-            <h2> <span>السعر</span>: $${formatCurrency(offer.priceCents)}</h2>
-            <div class="button-cont"><button class="buy-button"> اطلب العرض</button></div>
-            
-        </div>`
-})
+    // Create an HTML string for sizes and prices
+    let sizesHtml = '';
+    for (let i = 0; i < offer.length; i++) {
+        sizesHtml += `
+        
+            <div class="size-box" onclick="window.location = 'https://wa.me/+9647770641171?text= ${offer.name}/ ${ offer.sizes[i]} / ${offer.prices[i]}';">
+                <h2>${offer.sizes[i]} القياسات</h2>
+                <h3>${offer.prices[i].toLocaleString()} السعر</h3>
+             </div>
+        
+        `;
+    }
 
-document.querySelector('.section-five').innerHTML = html
-document.querySelectorAll('.buy-button').forEach((button) => {
-    button.addEventListener('click' , () => {
-        console.log('ordered')
-    })
-})
+    // Generate the HTML for the entire offer
+    html += `
+        <div class="card">
+            <h2>${offer.name}</h2>
+            <img class="image" src="${offer.Image}" alt="${offer.name}">
+            <div class="sizes" >
+                ${sizesHtml}
+            </div>
+        </div>
+    `;
+});
+
+// Assuming you have an element with the class 'offers-cont' to insert the generated HTML
+document.querySelector('.offers-cont').innerHTML = html;
